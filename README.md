@@ -22,7 +22,7 @@ build.gradleのdependenciesに以下を追加
 implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.2'
 ```
 
-# 概要
+# MyBatis概要
 テーブルに対してマッピングするO/Rマッパーの場合、多くのテーブルを結合するために長いコードを書く必要があるが、  
 MyBatisであればテーブル結合を前提としたSQLを作成するだけで済む  
 O/Rマッパーとは、オブジェクト（Object）とデータベース（RDB）を容易に変換（マッピング）するための機能  
